@@ -20,6 +20,7 @@ li{
 }
 ul li:last-child{
 	margin-bottom: 0;
+	margin-right: 0;
 }
 img{
 	display: block;
@@ -58,9 +59,9 @@ textarea{
 	resize: none;
 }
 body{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 19px;
-	color: #242424;
+	color: #56593D;
 	width: 100%;
 	font-family: 'Roboto', arial, sans-serif;
 }
@@ -93,14 +94,9 @@ body{
 	font-size: 16px;
 	line-height: 22px;
 	color: #fff;
+	transition: 0.5s;
 }
 .btn:hover{
-	box-shadow: 0px 6px 5px 2px #836A36;
-}
-.link{
-	transition: 0.3s;
-}
-.link:hover{
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
 .flex{
@@ -109,5 +105,151 @@ body{
 	justify-content: space-between;
 }
 
+header{
+	padding: 55px 0;
+}
+.nav-item{
+	margin-right: 39px;
+	text-transform: uppercase;
+}
+.nav-icons{
+	display: flex;
+}
+.nav-icon{
+	margin-right: 22px;
+}
+.head{
+	position: relative;
+	align-items: center;
+	
+}
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.main{
+	margin: 0 auto; 
+	width: 1328px;
+	padding: 462px 0 64px;
+	text-align: right;
+	background: url(../img/icons/apple-image.png) center no-repeat;
+	background-size: cover;
+	
+}
+.main_desc{
+padding-bottom: 10px;
+font-size: 18px;
+line-height: 22px;
+}
+.main_tit{
+	padding-bottom: 25px;
+	font-size: 45px;
+	line-height: 60px;
+}
+.text_block{
+	font-weight: 400;
+	font-size: 57px;
+	line-height: 81px;
+	text-align: center;
+	margin: 94px 0;
+}
+.arrow{
+	font-size: 26px ;
+	border-bottom:#56593D;
+	width: 14px;
+	height: 11px;
+}
+
+.arrow img{
+	
+	width: 14px;
+	height: 11px;
+}
+.link{
+	font-weight: 78px;
+	font-size: 26px;
+	border-bottom:#56593D ;
+	align-items: center;
+	border-bottom: 2px solid #56593D;
+	height: 57px;
+}
+.lin{
+	margin-right: 4px;	
+}
+.links{
+	display: flex;
+	justify-content: center;
+}
+
+.mb {
+	margin-left: 68px;
+}
+.products{
+	padding-top: 44px;
+	background-color: #FFFFEF;
+	margin-bottom: 23px;
+}
 
 
+.products-txt{
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 76px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-img{
+	width: 411px;
+	height: 411px;
+}
+.product-name{
+	font-size: 16px;
+	margin-top: 15px;
+	font-weight: 400;
+}
+.product-price{
+	margin-top: 7px;
+	font-size: 16px;
+	margin-bottom: 100px;
+}
+.essentials_desc{
+text-align: center;
+font-size: 17px;
+line-height: 22px;
+margin-bottom: 11px;
+color: #56593D;
+}
+.essentials_tit{
+	text-align: center;
+	font-size: 50px;
+	line-height: 60px;
+	max-width: 1063px;
+	margin: 0 auto;
+}
+.essentials_in{
+	background: url(../img/essentials.jpg) center no-repeat;
+	background-size: cover;
+	border: 16px solid #FFFFEF;
+padding: 64px 0 464px;
+}
+.essentials{
+	margin-bottom: 24px;
+}
+.item{
+	padding: 64px 32px;
+	background-color: #FFFFEF;
+}
+.item_img{
+	width: 50%;
+}
+.item_content{
+	width: 50%;
+}
